@@ -1,0 +1,12 @@
+[package]
+name = "run-ctags"
+version = "0.1.14"
+authors = ["Yancy Ribbens <email@yancy.lol>"]
+description = "Generate a ctags file for your Rust project with Universal Ctags."
+license = "MIT OR Apache-2.0"
+edition = "2021"
+repository = "https://github.com/yancyribbens/run-ctags"
+
+[dependencies]
+serde_json = "1.0.74"
+serde = { version = "1.0.133", features = ["derive"] }
