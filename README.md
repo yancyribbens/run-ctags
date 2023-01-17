@@ -35,6 +35,7 @@ Below are a few helpful commands to run from within Vim after the tags file has 
 Ctrl+] - Jump to the definition.
 Ctrl+T - Jump back from the definition.
 Ctrl+W Ctrl+] - Open the definition in a horizontal split.
+g+] - List all possible definitions.
 ```
 
 Note, Vim can only find the tags file if you start Vim in the project root.  However, the following command can be added to `.vimrc` which allows Vim to open the tags file from any subdirectory:
