@@ -33,8 +33,8 @@ Below are a few helpful commands to run from within Vim after the tags file has 
 ### commands
 ```
 Ctrl+] - Jump to the definition.
-Ctrl+T - Jump back from the definition.
-Ctrl+W Ctrl+] - Open the definition in a horizontal split.
+Ctrl+t - Jump back from the definition.
+Ctrl+w Ctrl+] - Open the definition in a horizontal split.
 g+] - List all possible definitions.
 ```
 
